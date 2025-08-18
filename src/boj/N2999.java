@@ -38,7 +38,7 @@ public class N2999 {
 
         for (int i = 0; i < c; i++) {
             for (int j = 0; j < maxR; j++) {
-                replaceArr[j][i] = message.charAt(idx++);
+                replaceArr[j][i] = message.charAt(i*maxR+j);
             }
         }// 배열에 값 넣기
 
