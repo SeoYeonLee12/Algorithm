@@ -1,4 +1,4 @@
-package aug.swea;
+package swea;
 import java.io.*;
 import java.util.*;
 
